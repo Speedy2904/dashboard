@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Zizera</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Top Navigation Bar -->
+  <nav class="bg-white shadow p-4 flex justify-between items-center">
+    <div class="text-xl font-bold">Zizera Dashboard</div>
+    <div class="flex items-center space-x-4">
+      <a href="#" class="text-gray-600 hover:text-blue-500">Home</a>
+      <a href="#" class="text-gray-600 hover:text-blue-500">Publications</a>
+      <a href="#" class="text-gray-600 hover:text-blue-500">Add New Catalog</a>
+      <div class="text-gray-700 font-semibold">Hi, Jhon Doe</div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="p-8 text-center">
+    <h1 class="text-3xl font-bold mb-4">Let’s Publish Some Amazing Online Catalogs Today.</h1>
+    <button class="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600">Add New Catalog</button>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="p-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold">20</h2>
+      <p class="text-gray-500">Uploaded</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold">9</h2>
+      <p class="text-gray-500">Published Online</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold">10</h2>
+      <p class="text-gray-500">In Progress</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold">10</h2>
+      <p class="text-gray-500">Publications Left</p>
+    </div>
+  </section>
+
+  <!-- Recent Activities Section -->
+  <section class="p-8">
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-2xl font-bold">Recent Activities</h2>
+      <a href="#" class="text-blue-500 hover:underline">View All</a>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-lg shadow">
+        <thead>
+          <tr class="bg-gray-200 text-gray-700">
+            <th class="py-3 px-6 text-left">Name</th>
+            <th class="py-3 px-6 text-left">Status</th>
+            <th class="py-3 px-6 text-left">Last Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b hover:bg-gray-50">
+            <td class="py-3 px-6">The Palm Springs</td>
+            <td class="py-3 px-6">Processing</td>
+            <td class="py-3 px-6">6 days ago</td>
+          </tr>
+          <tr class="border-b hover:bg-gray-50">
+            <td class="py-3 px-6">The Palm Springs</td>
+            <td class="py-3 px-6">Published</td>
+            <td class="py-3 px-6">6 days ago</td>
+          </tr>
+          <tr class="border-b hover:bg-gray-50">
+            <td class="py-3 px-6">The Palm Springs</td>
+            <td class="py-3 px-6">Unpublished</td>
+            <td class="py-3 px-6">6 days ago</td>
+          </tr>
+          <tr class="hover:bg-gray-50">
+            <td class="py-3 px-6">The Palm Springs</td>
+            <td class="py-3 px-6">Published</td>
+            <td class="py-3 px-6">6 days ago</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</body>
+</html>
